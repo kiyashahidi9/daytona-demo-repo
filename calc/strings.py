@@ -4,3 +4,7 @@ def reverse(text):
 
 def capitalize_words(text):
     return " ".join(word.capitalize() for word in text.split())
+
+
+def word_count(text):
+    return len(text.split())
